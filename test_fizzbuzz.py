@@ -8,4 +8,7 @@ def test_fizzbuzz_returns_fizz():
 
 def test_fizzbuzz_returns_buzz():
     assert fizzbuzz(5) == "Buzz"
+
+def test_fizzbuzz_returns_fizzbuzz():
+    assert fizzbuzz(15) == "FizzBuzz"
  
